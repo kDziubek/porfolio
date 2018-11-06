@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabLayoutId);
         tabs.setupWithViewPager(viewPager,true);
 
-        tabs.setTabTextColors(Color.GRAY,Color.parseColor("yellow"));
+        tabs.setTabTextColors(Color.BLACK,Color.parseColor("yellow"));
         getInTouch = findViewById(R.id.getInTouch);
         getInTouch.setOnClickListener(new View.OnClickListener() {
             @Override

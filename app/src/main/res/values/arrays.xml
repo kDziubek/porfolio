@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hobbyArray">
+        <item>riding a bike</item>
+        <item>sleeping</item>
+        <item>running</item>
+        <item>swimming</item>
+        <item>triathlon</item>
+        <item>football</item>
+        <item>basketball</item>
+        <item>travelling</item>
+        <item>programming</item>
+    </string-array>
+
+    <string-array name="contactArray">
+        <item>660567023</item>
+        <item>660567023</item>
+        <item>660561023</item>
+        <item>facebo1ok</item>
+        <item>faceboo2k</item>
+        <item>facebook4</item>
+        <item>faceboo5k</item>
+        <item>facebook2</item>
+        <item>faceboo22k</item>
+    </string-array>
+
+    <string-array name="skillsArray">
+        <item>android studio</item>
+        <item>git</item>
+        <item>SQL</item>
+        <item>css</item>
+        <item>html</item>
+        <item>Java</item>
+    </string-array>
+
+
+
+</resources>

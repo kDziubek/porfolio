@@ -1,17 +1,22 @@
 package com.example.hp.portfolio.views;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.hp.portfolio.ListViewAct.ListViewActivity;
 import com.example.hp.portfolio.R;
+
+import java.net.URL;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,19 +24,8 @@ import com.example.hp.portfolio.R;
 public class AboutFragment extends Fragment {
 
 
-    String[] myStringArray = new String[]{
-            "bike",
-            "sleeping",
-            "ski jumping",
-            "running",
-            "swimming",
-            "triathlon",
-            "football",
-            "basketball",
-            "betting",
-            "travelling",
-            "programming"
-    };
+    private Button btnGithub;
+    private String url = "https://github.com/kDziubek";
 
 
     public AboutFragment() {
@@ -43,8 +37,25 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
         View aboutView = inflater.inflate(R.layout.fragment_about_fragment,container,false);
+
+        btnGithub = aboutView.findViewById(R.id.btnGitHub);
+        btnGithub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goTuUrl(url);
+
+
+            }
+        });
         return aboutView;
+    }
+
+    private void goTuUrl(String url){
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW,uriUrl);
+        startActivity(launchBrowser);
     }
 
 

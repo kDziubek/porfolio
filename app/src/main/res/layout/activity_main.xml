@@ -67,8 +67,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            >
+            android:layout_gravity="center_horizontal">
 
             <Button
                 android:id="@+id/getInTouch"
@@ -105,7 +104,7 @@
         app:tabSelectedTextColor="@color/colorPrimary"
         app:tabMode="scrollable"
         android:layout_gravity="center_horizontal"
-        android:background="@color/colorAccent"
+        android:background="#aceace"
         app:tabGravity="fill"
         app:tabTextAppearance="@style/MineCustomTabText"
         >

@@ -8,15 +8,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
 
-import com.example.hp.portfolio.ListViewAct.ListViewActivity;
 import com.example.hp.portfolio.R;
-
-import java.net.URL;
 
 /**
  * A simple {@link Fragment} subclass.

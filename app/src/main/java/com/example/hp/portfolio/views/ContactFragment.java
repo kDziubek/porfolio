@@ -1,7 +1,6 @@
 package com.example.hp.portfolio.views;
 
 
-import android.inputmethodservice.Keyboard;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,7 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.hp.portfolio.ListViewAct.Work;
 import com.example.hp.portfolio.R;
 
 /**

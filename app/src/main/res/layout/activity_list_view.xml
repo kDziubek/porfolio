@@ -16,11 +16,6 @@
         android:background="#111111"
         android:textColor="#EEEEEE"
         android:gravity="center_horizontal"/>
-    <ListView
-        android:id="@+id/myListView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="15">
-    </ListView>
+
 
 </LinearLayout>

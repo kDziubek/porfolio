@@ -9,4 +9,5 @@
     <string name="about_me">"Hi, my name is Jakub. I am master of mining and geology, I graduated in september 2018. After my graduation I decided to change me profession. I started to study programming. At the beginning I tried frontend, but after a few weeks I decided to become an"\n" "<b>"android developer"</b>"."\n"Since few months of my studies I created a few android applications which are available at my Github account.
     </string>
     <string name="See_my_GitHub_account">See my GitHub account</string>
+    <string name="small_text">small text</string>
 </resources>

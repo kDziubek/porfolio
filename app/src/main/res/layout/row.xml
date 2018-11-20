@@ -12,20 +12,32 @@
         android:text="Medium Text"
         android:id="@+id/biggerTextId"
         android:layout_alignParentTop="true"
-        android:paddingLeft="30dp"
-        android:layout_marginTop="30dp"
-        android:textSize="50sp"/>
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="40sp"
+        android:textAllCaps="true"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
+        android:paddingLeft="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:text="Small text"
+        android:text="@string/small_text"
         android:id="@+id/smallTextId"
         android:layout_below="@+id/biggerTextId"
         android:textColor="#000000"
-        android:textSize="30sp"
-        />
+
+        android:textSize="20sp" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageListView"
+        android:layout_marginLeft="10dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:src="@android:drawable/sym_def_app_icon"
+        app:civ_border_width="2dp" />
 </RelativeLayout>

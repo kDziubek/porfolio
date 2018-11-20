@@ -14,7 +14,7 @@ public class Work_adapter extends ArrayAdapter<Work> {
 
     private Context mContext;
     private int mLayoutResourcesId;
-    private Work mData[] = null;
+   private Work mData[] = null;
 
     public Work_adapter(Context context, int resource, Work[] data) {
         super(context, resource, data);
@@ -31,7 +31,8 @@ public class Work_adapter extends ArrayAdapter<Work> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        View row = convertView;
+        View row;
+        row = convertView;
 
         LayoutInflater inflater = LayoutInflater.from(mContext);
         row = inflater.inflate(mLayoutResourcesId,parent,false);

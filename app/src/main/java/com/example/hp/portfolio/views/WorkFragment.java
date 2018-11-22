@@ -44,9 +44,6 @@ public class WorkFragment extends Fragment {
         if (mListView !=null){
             mListView.setAdapter(mWorkAdapter);
         }
-
-
-
         return workView;
     }
 
